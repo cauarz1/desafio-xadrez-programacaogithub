@@ -3,10 +3,10 @@
 int main(){
 
 //                          TORRE usando (FOR) 5 casas para direita
-    int t;
-    printf("Movimento da Torre:\n");
-         for(t = 1; t <= 5; t++){
-            printf("Casa %d: Direita\n", t);    //imprimindo as direção do movimento
+int t;
+printf("Movimento da Torre:\n");
+    for(t = 1; t <= 5; t++){
+        printf("Casa %d: Direita\n", t);    //imprimindo as direção do movimento
      }
 printf("\n");
 
@@ -48,10 +48,31 @@ do{
     r++;
 
 }while(r <= 8);
+printf("\n");
 
 
 
 
+
+
+
+
+
+
+
+
+
+//                  CAVALO usando (FOR/LOOP ANINHADO) 2 casas para cima e 1 para direita (L)
+printf("Movimento do Cavalo:\n");
+int c, d;  
+for (c = 1; c <= 2; c++){  // Move duas vezes para cima
+    printf("Cima\n");
+}
+
+for (d = 1; d <= 1; d++){  // Move uma vez para a direita
+    printf("Direita\n");
+}
+printf("\n");
 
 
 
@@ -59,4 +80,11 @@ do{
 
 
 return 0;
+
 }
+
+
+
+
+
+
